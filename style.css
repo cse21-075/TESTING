@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: black;
+}
+nav{
+    background-color: black;
+}
+nav li{
+    display: inline-flex;
+    padding-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+nav li:hover{
+    color: black;
+    transition: 0.1s smooth;
+    background-color: black;
+    width: 20px;
+    cursor: pointer;
+}
